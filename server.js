@@ -15,7 +15,8 @@ var app = express();
 
 // setup a 'route' to listen on the default url path
 app.get("/", (req, res) => {
-    res.send("Jaaved Dewan - 126045178\nMy favorite movie of 2023 is Mario Bros.");
+    var output = "Jaaved Dewan - 126045178\nMy favorite movie of 2023 is Mario Bros.";
+    res.send(output);
 });
 
 // setup http server to listen on HTTP_PORT
